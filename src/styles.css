@@ -1,23 +1,21 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     background-color: pink;
     justify-content: center;
     align-items: center;
     display: flex;
     transition: 1s;
+
 }
 
 
-div {
+/* div {
     padding: 20px;
-}
+} */
 
 #quote-box {
     background-color: aliceblue;
     margin: 8% auto auto auto;
+    padding: 40px 40px 40px 40px;
     border-radius: 10px;
     max-width: 500px;
     height: auto;
@@ -35,6 +33,7 @@ div {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
+    padding: 20px;
 
 
 }
@@ -78,3 +77,14 @@ a:visited {
     text-decoration: none;
     color: black
 }
+
+/* body {
+    /*div.container*/
+display: flex;
+justify-content: center;
+/* For horizontal alignment */
+align-items: center;
+/* For vertical alignment   */
+}
+
+*/

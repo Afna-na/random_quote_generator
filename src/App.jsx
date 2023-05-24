@@ -33,15 +33,15 @@ export default function App() {
     getQuote();
   }, []);
 
-  useEffect(() => {
-    document.body.style.backgroundColor = color
-    let obj = document.querySelectorAll("button")
-    for (let i = 0; i < 3; i++) {
-      console.log(obj[i])
-      obj[i].style.backgroundColor = color
-      obj[i].style.border = color
-    }
-  }, [color]);
+  // useEffect(() => {
+  //   document.body.style.backgroundColor = color
+  //   let obj = document.querySelectorAll("button")
+  //   for (let i = 0; i < 3; i++) {
+  //     console.log(obj[i])
+  //     obj[i].style.backgroundColor = color
+  //     obj[i].style.border = color
+  //   }
+  // }, [color]);
 
 
 
@@ -62,7 +62,7 @@ export default function App() {
 
         <button id="new-quote" className="btn" onClick={() => {
           getQuote()
-          getColor()
+          // getColor()
         }} >New quote</button>
 
       </div >
